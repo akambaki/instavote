@@ -5,3 +5,11 @@ resources:
 patchesStrategicMerge:
 - vote-deployment.yaml
 - vote-service.yaml
+
+configMapGenerator:
+  - name: vote
+    literals:
+      - OPTION_A=CANDY
+      - OPTION_B=CANE
+
+
