@@ -12,4 +12,4 @@ configMapGenerator:
   - OPTION_B=CANE
 images:
 - name: usmanlakhani/vote
-  newTag: main-8dde94a2-1709839377 # {"$imagepolicy": "flux-system:vote:tag"}
+  newTag: main-6944ba37-1709924038 # {"$imagepolicy": "flux-system:vote:tag"}
