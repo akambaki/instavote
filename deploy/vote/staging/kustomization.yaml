@@ -12,4 +12,8 @@ configMapGenerator:
       - OPTION_A=CANDY
       - OPTION_B=CANE
 
+images:
+- name: usmanlakhani/vote
+  newTag: v4 # {"$imagepolicy": "flux-system:vote:tag"}
+
 
