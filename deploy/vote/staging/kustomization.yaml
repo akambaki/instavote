@@ -5,15 +5,11 @@ resources:
 patchesStrategicMerge:
 - vote-deployment.yaml
 - vote-service.yaml
-
 configMapGenerator:
-  - name: vote
-    literals:
-      - OPTION_A=CANDY
-      - OPTION_B=CANE
-
+- name: vote
+  literals:
+  - OPTION_A=CANDY
+  - OPTION_B=CANE
 images:
 - name: usmanlakhani/vote
-  newTag: v4 # {"$imagepolicy": "flux-system:vote:tag"}
-
-
+  newTag: main-8dde94a2-1709839377 # {"$imagepolicy": "flux-system:vote:tag"}
